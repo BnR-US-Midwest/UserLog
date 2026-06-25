@@ -62,7 +62,7 @@ ArEventLogRecordIDType UserLogEventText(char *Logbook, int32_t Event,
     IecStringFormat(string_data, sizeof(string_data), Message, Values);
     ArEventLogAddDataString((uint32_t)data, sizeof(data),
                             (uint32_t)string_data);
-    write.AddDataSize = 0;
+    write.AddDataSize = sizeof(data);
     write.AddDataFormat = arEVENTLOG_ADDFORMAT_CODED;
     write.AddData = (uint32_t)data;
 
