@@ -23,10 +23,10 @@
         <seg>UserLog could not create the logbook. Please see ArEventLog error</seg>
       </tuv>
     </tu>
-    <tu tuid="1632259616">
-      <note>20000 This is an example Text ID for UserLogEventText</note>
+    <tu tuid="1611615776">
+      <note>20000 - Sample UserLogEventText log entry</note>
       <tuv xml:lang="en">
-        <seg>{1}</seg>
+        <seg>Sample UserLogEventText: {1} {2} {3} {4}</seg>
       </tuv>
     </tu>
   </body>

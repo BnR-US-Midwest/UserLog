@@ -6,5 +6,5 @@ VAR CONSTANT
 	USERLOG_ERROR_CREATE : DINT := -515234012; (*An error occurred when calling ArEventLogCreate. See User logbook for details*)
 	USERLOG_FORMAT_INDEX : USINT := 5; (*Maximum index of each runtime data type*)
 	USERLOG_FORMAT_LENGTH : USINT := 80; (*Length of string runtime data*)
-	USERLOG_EXAMPLE_TEXT_ID : DINT := 1632259616; (*Example Text ID (Event ID) for UserLogEventText function*)
+	USERLOG_EXAMPLE_TEXT_ID : DINT := 1611615776; (*Example Text ID (Event ID) for UserLogEventText function*)
 END_VAR

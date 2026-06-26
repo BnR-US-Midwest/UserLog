@@ -35,7 +35,7 @@ FUNCTION UserLogEventText : UDINT (*Write to any user logbook through binary-enc
 		Event : DINT; (*Event ID (match Text ID)*)
 		Origin : ArEventLogRecordIDType; (*(Optional) Origin record ID*)
 		Object : STRING[0]; (*(Optional) Object name*)
-		Message : STRING[0]; (*Event description with optional format specifiers*)
+		Message : STRING[0]; (*Ordedred list of specifiers (%b, %i, %f, %s) to replace the placeholders in the event text ({1}, {2}, ...)*)
 		Values : UserLogFormatType; (*Format values to replace specifiers (%b, %f, %i, %s)*)
 	END_VAR
 END_FUNCTION
